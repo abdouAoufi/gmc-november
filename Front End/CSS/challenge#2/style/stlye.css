@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+}
+
+#logo {
+  display: inline-block;
+  margin-right: 24px;
+  width: 10%;
+}
+
+#nav-link-container {
+  display: inline-block;
+  width: 70%;
+}
+
+#nav-link-container li {
+  display: inline-block;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+#nav-link-container a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#btn-container {
+  display: inline-block;
+}
+
+#btn-container button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  color: hsl(0, 0%, 41%);
+}
+
+#login-btn {
+  border: 0;
+}
+
+#btn-container :nth-child(2) {
+  border-radius: 12px;
+  border: 1px solid hsl(0, 0%, 41%);
+}
+
+#main {
+  padding-top: 20px;
+}
+
+#header-text {
+  display: inline-block;
+  width: 40.5%;
+  float: left;
+  padding-top: 64px;
+  padding-left: 64px;
+}
+
+#header-text h1 {
+  font-size: 56px;
+}
+
+#header-text p {
+  margin-top: 42px;
+  width: 60%;
+  color: hsl(0, 0%, 41%);
+  line-height: 24px;
+}
+
+#header-text button {
+  margin-top: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+#header-img {
+  display: inline-block;
+  width: 47.5%;
+}
+
+#header-img img {
+  width: 70%;
+}
+

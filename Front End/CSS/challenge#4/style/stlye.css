@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 64px;
+}
+
+#logo {
+  height: 15px;
+}
+
+#nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#btn-link-container {
+  display: flex;
+}
+
+#plan {
+  padding: 8px 26px;
+  background-color: white;
+  font-weight: bold;
+}
+
+#main {
+  margin-top: 42px;
+  display: flex;
+  padding: 0 60px;
+}
+
+#main-text {
+  width: 50%;
+}
+
+#main-text h1 {
+  font-size: 56px;
+}
+
+#main-text p {
+  margin-top: 16px;
+  width: 90%;
+}
+
+#main-text button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: white;
+}
+
+#main-img img {
+  width: 90%;
+}
+
+#feature-container {
+  margin-top: 64px;
+  padding: 0 60px;
+}
+
+#features {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.feature {
+  padding: 16px 0;
+}
+
+.feature h3 {
+  margin-top: 24px;
+}
+
+.feature p {
+  margin-top: 24px;
+}
+
+#find {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  background-color: hsl(256, 26%, 20%);
+  margin: 32px 64px 32px 64px;
+  color: white;
+}
+
+#find button {
+  padding: 8px 24px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  height: 40px;
+}
